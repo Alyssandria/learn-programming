@@ -156,3 +156,37 @@ Output
   Original list: 1 -> 2 -> 3 -> 4
   Reversed list: 4 -> 3 -> 2 -> 1
 ```
+
+# Activity 6: Function Pointer
+
+Problem
+
+- Write a program that uses function pointers to perform basic arithmetic operations.
+
+Description
+
+1. Implement functions for addition, subtraction, multiplication, and division.
+2. Use function pointers to call these functions based on user input.
+3. Display the result of the chosen operation.
+
+Constraints
+
+- Use function pointers to dynamically call the appropriate operation.
+- Ensure that division by zero is handled gracefully.
+
+Output
+
+- The result of the selected operation.
+
+```
+  Expected Output
+  Example 1:
+  Enter two numbers: 10 5
+  Enter operation (+, -, _, /): +
+  Result: 15
+
+  Example 2:
+  Enter two numbers: 10 0
+  Enter operation (+, -, _, /): /
+  Error: Division by zero is not allowed.
+```

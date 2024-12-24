@@ -14,7 +14,7 @@ int main(){
 
   bool retry;
   do{
-  printf(PROMPT);
+  printf(NUM_PROMPT);
   if(!scanf("%d", &num)){
     printf(ERRMSG);
     return 1;
