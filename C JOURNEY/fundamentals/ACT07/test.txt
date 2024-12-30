@@ -1,0 +1,6 @@
+Hello there! How are you doing today?  
+I hope everything is going well.  
+Let me know if you need any help with your project.  
+The sky is blue, and the grass is green.  
+This is a simple text to test word counting.  
+Have a great day ahead! 
