@@ -190,3 +190,135 @@ Output
   Enter operation (+, -, _, /): /
   Error: Division by zero is not allowed.
 ```
+
+# Activity 7: File I/O - Count Words in a File
+
+Problem
+
+- Write a program that reads a file and counts the number of words in it.
+
+Description
+
+1. Prompt the user for the file name.
+2. Open the file and read its contents.
+3. Count the number of words (separated by spaces) and display the count.
+
+Constraints
+
+- Handle cases where the file might not exist.
+- The file can contain multiple lines.
+
+Output
+
+- The number of words in the file.
+
+```
+Expected Output
+Example 1:
+Enter the file name: test.txt
+Number of words: 120
+
+Example 2:
+Enter the file name: test.txt
+Error: File not found.
+```
+
+# Activity 8: Binary Search
+
+Problem
+
+- Implement the binary search algorithm to search for a value in a sorted array.
+
+Description
+
+- Prompt the user for the size of the array and the value to search for.
+- Sort the array if necessary.
+- Implement the binary search algorithm and display whether the value is found or not.
+
+Constraints
+
+1. Only integer arrays.
+2. The array should be sorted before performing the search.
+
+Output
+
+- "Found" or "Not Found" message.
+
+```
+Expected Output
+
+Example 1:
+Enter the size of the array: 5
+Enter elements: 1 3 5 7 9
+Enter the number to search for: 5
+Found
+
+Example 2:
+Enter the size of the array: 5
+Enter elements: 1 3 5 7 9
+Enter the number to search for: 6
+Not Found
+```
+
+# Activity 9: Recursion - Tower of Hanoi
+
+Problem
+
+- Write a recursive function to solve the Tower of Hanoi puzzle.
+
+Description
+
+- Implement a recursive function that moves disks from one peg to another while following the rules of the Tower of Hanoi.
+  Prompt the user for the number of disks and display the series of moves.
+
+- Constraints
+
+- The number of disks should be between 1 and 10.
+
+Output
+
+- The steps required to solve the puzzle.
+
+```
+Expected Output
+
+Example 1:
+Enter the number of disks: 3
+Move disk 1 from A to C
+Move disk 2 from A to B
+Move disk 1 from C to B
+Move disk 3 from A to C
+Move disk 1 from B to A
+Move disk 2 from B to C
+Move disk 1 from A to C
+```
+
+# Activity 10: Implementing Stack Using Arrays
+
+Problem
+
+- Write a program to implement a stack using arrays.
+
+- Description
+- Create a stack data structure using an array.
+- Implement basic operations: push, pop, peek, and is_empty.
+- Prompt the user for operations to perform on the stack.
+
+Constraints
+
+1. The stack should have a maximum size of 100 elements.
+2. Handle underflow and overflow conditions.
+
+Output
+
+- The result of the stack operations.
+
+```
+Expected Output
+
+Example 1:
+Enter operation (push, pop, peek, exit): push 10
+Enter operation (push, pop, peek, exit): push 20
+Enter operation (push, pop, peek, exit): pop
+Popped value: 20
+```
